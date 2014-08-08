@@ -1,0 +1,25 @@
+{
+  "name": "FinFishMetadata",
+  "version": "1.0.0",
+  "description": "Extracting PGP key ids and looking up keys on key server to uncover Gamma Corp clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FredericJacobs/FinFishMetadata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredericJacobs/FinFishMetadata/issues"
+  },
+  "homepage": "https://github.com/FredericJacobs/FinFishMetadata",
+  "dependencies": {
+    "hkp-client": "0.0.2",
+    "node-pgp": "0.0.1",
+    "node-walker": "^0.1.0",
+    "shelljs": "^0.3.0"
+  }
+}
